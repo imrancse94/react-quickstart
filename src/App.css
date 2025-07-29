@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@layer base {
+    
+    h1, h2, h3, h4, h5, h6 {
+        font-size: inherit;
+        font-weight: inherit;
+    }
+
+    .text-2xl {
+        font-size: 1.5rem !important;
+        line-height: 2rem !important;
+  }
+  .text-xl {
+    font-size: 1.25rem !important;
+    line-height: 1.75rem !important;
+}
+
+  
+}
